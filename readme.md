@@ -1,4 +1,4 @@
-## Face Unlockers
+## Face Unlocker
 
 Still in Alpha.
 Upload your face and Twitter handle to unlock someone else’s face from around the world!
