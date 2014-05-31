@@ -1,0 +1,144 @@
+#preview_image{
+    width:100%;
+}
+
+.container{
+    position: relative;
+    z-index: 10;
+}
+
+h1{
+    font-weight: 200;
+    text-align: center;
+}
+
+h2{
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+h3{
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: 200;
+  letter-spacing: .5px;
+}
+
+h4{
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: 200;
+  letter-spacing: .5px;
+}
+
+.info{
+  font-size: 26px;
+}
+
+input[name="name"]{
+    border:0px;
+    border-bottom: 2px solid black;
+    width: 100%;
+    text-align: center;
+    border-radius: 0px;
+    background: transparent;
+    font-weight: bold;
+}
+
+input[name="name"]:focus{
+    outline:none;
+    box-shadow:none;
+}
+
+.btn-file {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    font-size: 60px;
+    line-height:70px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 999px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+#submit{
+    position: fixed;
+    bottom: 0px;
+    left:0px;
+    width: 100%;
+    border-radius: 0px;
+    height: 60px;
+    font-size: 30px;
+}
+
+#preview_image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    min-width:100px;
+}
+
+#curtain{
+  position: fixed;
+  z-index: 999999999;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background: black;
+  opacity: .3;
+  display: none;
+}
+
+#cover{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgb(95, 176, 211);
+  z-index: 9909090909090;
+}
+
+#all{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
